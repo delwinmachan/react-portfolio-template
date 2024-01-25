@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import CustomCursor from "custom-cursor-react";
+// import CustomCursor from "custom-cursor-react";
 import "custom-cursor-react/dist/index.css";
 import { useTheme } from "next-themes";
 
@@ -21,19 +21,20 @@ const Cursor = () => {
   return (
     <>
       {mount && (
-        <CustomCursor
-          targets={[".link"]}
-          customClass="custom-cursor"
-          dimensions={30}
-          fill={getCusomColor()}
-          smoothness={{
-            movement: 0.2,
-            scale: 0.1,
-            opacity: 0.2,
-          }}
-          targetOpacity={0.5}
-          targetScale={2}
-        />
+        // <CustomCursor
+        //   targets={[".link"]}
+        //   customClass="custom-cursor"
+        //   dimensions={30}
+        //   fill={getCusomColor()}
+        //   smoothness={{
+        //     movement: 0.2,
+        //     scale: 0.1,
+        //     opacity: 0.2,
+        //   }}
+        //   targetOpacity={0.5}
+        //   targetScale={2}
+        // />
+        <div>delwin</div>
       )}
     </>
   );
